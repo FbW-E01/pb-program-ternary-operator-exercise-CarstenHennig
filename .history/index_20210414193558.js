@@ -62,9 +62,9 @@ if (login == 'Employee') {
 //write your code here 
 let login = "Employer";
 let message;
-(login === "Employer") ? message = "Hello" : message = "";
-(login === "Director") ? message = "Greetings" : message = "";
-(login === "") ? message = "No login" : message = "";
+(login = "Employer") ? message = "Hello";
+(login = "Director") ? message = "Greetings";
+(login = "") ? message = "No login" : message = "";
 console.log(message)
 
 /* _________________________________ */

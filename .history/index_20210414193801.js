@@ -60,11 +60,11 @@ if (login == 'Employee') {
 
 
 //write your code here 
-let login = "Employer";
+let login = "Director";
 let message;
-(login === "Employer") ? message = "Hello" : message = "";
-(login === "Director") ? message = "Greetings" : message = "";
-(login === "") ? message = "No login" : message = "";
+(login == "Employer") ? message = "Hello" : message = "";
+(login == "Director") ? message = "Greetings" : message = "";
+(login == "") ? message = "No login" : message = "";
 console.log(message)
 
 /* _________________________________ */
