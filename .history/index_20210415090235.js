@@ -58,14 +58,12 @@ if (login == 'Employee') {
 
 /* _________________________________ */
 
+
 //write your code here 
-let login = "Director";
+let login = "Employee";
 let message;
 
-message = (login === "Employee") ? "Hello" : 
-  (login === "Director") ? "Greetings" : 
-    (login === "") ? "No login" : ""
-  
+message = (login === "Employee") ? "Hello" : "";
 // (login == "Director") ? message = "Greetings" : message = "";
 // (login == "") ? message = "No login" : message = "";
 console.log(message)
