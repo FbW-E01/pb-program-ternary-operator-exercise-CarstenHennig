@@ -14,7 +14,7 @@ let a=3;
 let b=6;
 
 //write your code here 
-(a + b < 4) ? console.log("Below") : console.log("Over");
+console.log(result)
 
 /* _________________________________ */
 
@@ -35,7 +35,7 @@ let score = 42;
 let msg = "";
 
 //write your code here 
-(score > 1337) ? msg = "This is a new highscore" : msg = "You need more points to beat the highscore";
+
 console.log(msg)
 
 /* _________________________________ */
@@ -58,16 +58,8 @@ if (login == 'Employee') {
 
 /* _________________________________ */
 
-//write your code here 
-let login = "Director";
-let message;
 
-message = (login === "Employee") ? "Hello" : 
-  (login === "Director") ? "Greetings" : 
-    (login === "") ? "No login" : ""
-  
-// (login == "Director") ? message = "Greetings" : message = "";
-// (login == "") ? message = "No login" : message = "";
+//write your code here 
 console.log(message)
 
 /* _________________________________ */

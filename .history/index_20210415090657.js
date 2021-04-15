@@ -59,7 +59,7 @@ if (login == 'Employee') {
 /* _________________________________ */
 
 //write your code here 
-let login = "Director";
+let login = "Employee";
 let message;
 
 message = (login === "Employee") ? "Hello" : 
